@@ -199,4 +199,114 @@
     font-weight: 300;
 }
 
+/*estilos consulta*/
+
+.tituloconsulta{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.contenedor .card1{
+    width: 1000px;
+    height: 500px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .card1 img{
+    width: 1000px;
+    height: 300px;
+}
+
+.contenedor .card1 p{
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contenedor .card2{
+    width: 1000px;
+    height: 720px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .card2 img{
+    width: 1000px;
+    height: 300px;
+}
+
+.contenedor .card2 p{
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contenedor .card3{
+    width: 1000px;
+    height: 900px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .card3 img{
+    width: 1000px;
+    height: 300px;
+}
+
+.contenedor .card3 p{
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contenedor .card4{
+    width: 1000px;
+    height: 700px;
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .card4 img{
+    width: 1020px;
+    height: 300px;
+}
+
+.contenedor .card4 p{
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
 
