@@ -2,6 +2,12 @@
     font-family: 'Lobster', cursive;
     font-weight: 100;
 }
+body {
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 /*estilos del menu*/
 
@@ -38,6 +44,10 @@
     padding-bottom: 5px;
 }
 
+.articulo{
+    border: 5px solid black;
+}
+
 .articulo__section__div{
    margin-top: 10px;
    margin-bottom: 10px;
@@ -47,9 +57,10 @@
 
 .articulo__section__div__img{
     border: 5px solid black;
+    border-radius: 16px;
 }
 .articulo__section__div__linea{
-    width: 90%;
+    width: 96%;
     height: 3px;
     margin: 0 auto;
     background-color: black;
@@ -58,6 +69,10 @@
 .articulo__section__divinfo{
     padding-left: 200px;
     margin: 20px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background-color: lavender;
 }
 
 .articulo__section__divinfo__ul{
@@ -67,6 +82,10 @@
 .articulo__section__divperfil{
     padding-left: 200px;
     margin: 20px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background-color: lavender;
 }
 
 .articulo__section__divperfil h2{
@@ -80,6 +99,10 @@
 .articulo__section__divestudios{
     padding-left: 200px;
     margin: 20px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background-color: lavender;
 }
 
 .articulo__section__divestudios h4{
@@ -94,6 +117,10 @@
 .articulo__section__divhobbies{
     padding-left: 200px;
     margin: 20px;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 2px solid black;
+    background-color: lavender;
 }
 
 .articulo__section__divhobbies h2{
@@ -113,48 +140,6 @@
     font-size: 20px;
 }
 
-/*estilos sopa de letras*/
-
-.table{
-    border: 1px solid black;
-}
-.table_tr{
-    padding: 30px; 
-    text-align: center;
-}
-
-.table_tr_td{
-    background: chocolate;
-}
-
-.div_palabras{
-    display: inline-block;
-    margin-right: 500px;
-}
-
-.div_palabras_ul{
-    list-style: none;
-}
-.div_palabras_ul li:hover{
-    background: slateblue;
-}
-
-.div_sopa{
-    display: inline-block;
-    margin-top: 50px;
-}
-
-.linea_sopa{
-    width: 100%;
-    height: 3px;
-    margin: 0 auto;
-    background-color: black;
-}
-
-.titulo_sopa{
-    text-align: center;
-}
-
 /*estilos catalogo*/
 
 .titulocatalogo{
@@ -162,30 +147,26 @@
     font-size: 40px;
 }
 
-.contenedorcard{
-    width: 100%;
-    max-width: 1200px;
-    height: 430px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
+.eslogan{
+    text-align: center;
 }
-
-.contenedorcard .card{
+.card{
     width: 330px;
     height: 430px;
     border-radius: 8px;
-    box-shadow: 0 2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px rgba(0,0,0,0.5);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    
 }
 
-.contenedorcard .card:hover{
+.card:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgbs(0,0,0,0.2);
+    border: 1px solid black;
+    background: aquamarine;
 }
 
 .contenedorcard .card img{
@@ -197,6 +178,12 @@
     padding: 0 1rem;
     font-size: 16px;
     font-weight: 300;
+}
+
+#borde{
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: white;
 }
 
 /*estilos consulta*/
@@ -226,6 +213,7 @@
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: white;
 }
 
 .contenedor .card1 img{
@@ -249,6 +237,7 @@
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: white;
 }
 
 .contenedor .card2 img{
@@ -272,6 +261,7 @@
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: white;
 }
 
 .contenedor .card3 img{
@@ -295,6 +285,7 @@
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
+    background-color: white;
 }
 
 .contenedor .card4 img{

@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.titulo_sopa{
+    text-align: center;
+}
+
+h2{text-align: center;}
+h1,
+h2,
+#resolverboton,
+#nuevojuegoboton,
+.listapalabras {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+#mensajeinicio,
+#tableropalabras,
+#listapalabras {
+text-align: center;
+}
+
+h1,
+h2,
+.cell,
+#listapalabras {
+  background-color: lightblue;
+}
+
+h1,
+h2 {
+  margin: 20px auto 20px auto;
+  display: table;
+}
+
+
+
+#tableropalabras {
+    margin: 20px auto 0 auto;
+    border: 2px black solid;
+    display: table;
+    min-width: 600px;
+}
+
+.boardRow {
+    display: table-row;
+}
+
+.cell {
+    margin: 0 auto;
+    border: none;
+    display: table-cell;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    padding: 0;
+    outline: 0;
+    cursor: default;
+    --moz-user-select: none;
+    --ms-user-select: none;
+    --khtml-user-select: none;
+    --webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.cell:hover {
+    background-color: rgb(4, 29, 248);
+}
+
+.cell.selectable {
+    background-color: rgb(138, 4, 131);
+}
+
+.cell.selected {
+    background-color: rgb(13, 180, 88);
+}
+
+.cell.found {
+    background-color: rgb(204, 226, 9);
+    border: 1px black solid;
+    font-weight: bold;
+}
+
+#listapalabras {
+    margin: 40px auto 0 auto;
+    border: 2px black solid;
+    display: table;
+    min-width: 600px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.listRow {
+    display: table-row;
+}
+
+.listWord {
+    display: table-cell;
+}
+
+.listWord.found {
+    color: rgb(158, 123, 158);
+    text-decoration: line-through;
+}
+ 
+#resolverboton,
+#nuevojuegoboton {
+  background-color: rgb(145, 255, 218);
+  margin: 20px auto 20px auto;
+  /* display: block; */
+  outline: 0;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.derecha{
+    text-align: right;
+    margin: 50px;
+}

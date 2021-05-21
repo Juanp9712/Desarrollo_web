@@ -1,0 +1,37 @@
+[
+    {
+      "precio": 300000,
+      "id": 1,
+      "title": "Impresora",
+      "descripcion":"Impresora multi funcional, con cartuchos recargables multicolor",
+      "thumbnailUrl": "Imagenes/Impresora.png"
+    },
+    {
+      "precio": 2300000,
+      "id": 2,
+      "title": "Laptop",
+      "descripcion":"Laptop multiprocesamiento con windows 10, de la marca Apple",
+      "thumbnailUrl": "Imagenes/Laptop.jpg"
+    },
+    {
+      "precio": 200000,
+      "id": 3,
+      "title": "Mouse",
+      "descripcion":"Mouse infrarojo, ultra sensible, de la marca Apple, con diseño ergonomico",
+      "thumbnailUrl": "Imagenes/mouse.jpg"
+    },
+    {
+      "precio": 250000,
+      "id": 4,
+      "title": "Teclado",
+      "descripcion":"Teclado inalambrico, con una modulacion mecanica y teclas antiruido",
+      "thumbnailUrl": "Imagenes/Teclado.png"
+    },
+    {
+      "precio": 350000,
+      "id": 5,
+      "title": "RAM",
+      "descripcion":"Modulo de memoria RAM DDR4, con una capacidad de 8GB, a una velocidad de 1333 bps",
+      "thumbnailUrl": "Imagenes/ram.jpg"
+    }
+  ]
